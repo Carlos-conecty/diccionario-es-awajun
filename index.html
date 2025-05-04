@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traductor Español - Awajún</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Diccionario Español - Awajún</h1>
+      <p>Aprende y traduce palabras entre Español y Awajún fácilmente</p>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="index.html" class="active">Inicio</a></li>
+      <li><a href="diccionario.html">Ver Diccionario</a></li>
+      <li><a href="agregar.html">Agregar Palabra</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section class="search-section">
+      <h2>Traductor</h2>
+      <p>Introduce una palabra en Español para traducirla al Awajún</p>
+      <div class="form-group">
+        <input type="text" id="entrada" placeholder="Ej. agua, fuego, casa" />
+        <button onclick="traducir()">Traducir</button>
+      </div>
+      <div id="resultado" class="resultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Diccionario Awajún | Desarrollado con ❤️ para preservar lenguas originarias</p>
+  </footer>
+
+  <script src="js/diccionario.js"></script>
+  <script src="js/funciones.js"></script>
+</body>
+</html>
