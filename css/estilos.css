@@ -36,7 +36,7 @@ body {
 /* === HEADER === */
 header {
   background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-  color: white;
+  color: yellow;
   padding: 2rem 1rem;
   text-align: center;
   box-shadow: var(--shadow-md);
